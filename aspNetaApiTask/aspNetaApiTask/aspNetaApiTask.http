@@ -1,0 +1,6 @@
+@aspNetaApiTask_HostAddress = http://localhost:5294
+
+GET {{aspNetaApiTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
