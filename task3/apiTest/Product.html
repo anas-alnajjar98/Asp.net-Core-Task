@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    height: 600px;
+    background: #fff;
+    margin: 20px;
+}
+
+.container .imgBx {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #212121;
+    transition: .3s linear;
+}
+
+.container .imgBx:before {
+    content: 'Nike';
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    color: #000;
+    opacity: 0.2;
+    font-size: 8em;
+    font-weight: 800;
+}
+
+.container .imgBx img {
+    position: relative;
+    width: 365px;
+    transform: rotate(14deg);
+    left: -50px;
+    transition: .9s linear;
+}
+
+.container .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.container .details h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    line-height: 1em;
+    color: #444;
+}
+
+.container .details h2 span {
+    font-size: 0.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+}
+
+.container .details p {
+    max-width: 85%;
+    margin-left: 15%;
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 36px;
+}
+
+.container .details h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: #a2a2a2;
+    float: left;
+}
+.container .details button {
+    background: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 40px;
+    float: right;
+}
+
+.product-colors span {
+    width: 26px;
+    height: 26px;
+    top: 7px;
+    margin-right: 12px;
+    left: 10px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.black {
+    background: #000;
+}
+
+.red {
+    background: #D5212E;
+}
+
+.orange {
+    background: #F18557;
+}
+
+.product-colors .active:after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    border: 2px solid #000;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    left: -5px;
+    top: -5px;
+}
+
+/* responsive */
+@media (max-width: 1080px) {
+    .container {
+        height: auto;
+    }
+    .container .imgBx {
+        padding: 40px;
+        box-sizing: border-box;
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+    .container .imgBx img {
+        left: initial;
+        max-width: 100%;
+        transform: rotate(0deg);
+    }
+    .details {
+        width: 100% !important;
+        height: auto;
+        padding: 20px;
+    }
+    .container .details p {
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
+
+footer {
+    position: fixed;
+    right: 16px;
+    bottom: 12px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+#ProductContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Category.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Product.html">Products</a>
+            </li>
+           
+          </ul>
+        </div>
+      </nav>
+      <div id="ProductContainer"></div>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script>
+        const getproduct = async () => {
+          try {
+            const res = await axios.get("https://localhost:7216/api/Products");
+            const element = document.getElementById("ProductContainer");
+      
+            
+            res.data.forEach(product => {
+              let card = document.createElement('div');
+             
+              card.innerHTML = `
+                <div class="container">
+                  <div class="imgBx">
+                    <img src="${product.productImage}" alt="Product Image">
+                  </div>
+                  <div class="details">
+                    <div class="content">
+                      <h2>${product.productName}<br>
+                        <span>${product.ProductName}</span>
+                      </h2>
+                      <p>
+                        ${product.description}
+                      </p>
+                      <p class="product-colors">Available Colors:
+                        <span class="black active" data-color-primary="#000" data-color-sec="#212121" data-pic="https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto.png?raw=true"></span>
+                        <span class="red" data-color-primary="#7E021C" data-color-sec="#bd072d" data-pic="https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto_red_black.png?raw=true"></span>
+                        <span class="orange" data-color-primary="#CE5B39" data-color-sec="#F18557" data-pic="https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto_orange_black.png?raw=true"></span>
+                      </p>
+                      <h3>${product.price}</h3>
+                      <button>Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              `;
+              element.appendChild(card);
+            });
+          } catch (error) {
+            console.error("Error fetching products:", error);
+          }
+        }
+        getproduct();
+      </script>
+
+      <script src="product.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
