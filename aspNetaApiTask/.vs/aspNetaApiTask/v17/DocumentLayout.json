@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\aspnetaapitask\\aspnetaapitask\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\asp.netapitask\\asp.net-core-task\\aspnetaapitask\\aspnetaapitask\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|solutionrelative:aspnetaapitask\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\aspnetaapitask\\aspnetaapitask\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\asp.netapitask\\asp.net-core-task\\aspnetaapitask\\aspnetaapitask\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|solutionrelative:aspnetaapitask\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\asp.netapitask\\asp.net-core-task\\aspnetaapitask\\aspnetaapitask\\models\\ecommercecorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|solutionrelative:aspnetaapitask\\models\\ecommercecorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\asp.netapitask\\asp.net-core-task\\aspnetaapitask\\aspnetaapitask\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|solutionrelative:aspnetaapitask\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\aspnetaapitask\\aspnetaapitask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\asp.netapitask\\asp.net-core-task\\aspnetaapitask\\aspnetaapitask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|solutionrelative:aspnetaapitask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\aspnetaapitask\\aspnetaapitask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\asp.netapitask\\asp.net-core-task\\aspnetaapitask\\aspnetaapitask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|solutionrelative:aspnetaapitask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|c:\\users\\orange\\desktop\\aspnetaapitask\\aspnetaapitask\\models\\ecommercecorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF1E2C61-0450-408B-B567-AC65DFE520F8}|aspNetaApiTask\\aspNetaApiTask.csproj|solutionrelative:aspnetaapitask\\models\\ecommercecorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,68 +42,77 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "aspNetaApiTask\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Models\\Product.cs",
+              "RelativeToolTip": "aspNetaApiTask\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:42:13.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "aspNetaApiTask\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "aspNetaApiTask\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Controllers\\ProductsController.cs*",
+              "RelativeToolTip": "aspNetaApiTask\\Controllers\\ProductsController.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T14:12:27.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "aspNetaApiTask\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "aspNetaApiTask\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T13:56:19.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T13:56:19.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\appsettings.json",
               "RelativeDocumentMoniker": "aspNetaApiTask\\appsettings.json",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\appsettings.json",
               "RelativeToolTip": "aspNetaApiTask\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-19T13:49:01.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\Program.cs",
-              "RelativeDocumentMoniker": "aspNetaApiTask\\Program.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\Program.cs",
-              "RelativeToolTip": "aspNetaApiTask\\Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBMAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T13:47:53.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T13:49:01.682Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Program.cs",
+              "RelativeDocumentMoniker": "aspNetaApiTask\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Program.cs",
+              "RelativeToolTip": "aspNetaApiTask\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBMAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:47:53.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EcommerceCoreContext.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\Models\\EcommerceCoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Models\\EcommerceCoreContext.cs",
               "RelativeDocumentMoniker": "aspNetaApiTask\\Models\\EcommerceCoreContext.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\Models\\EcommerceCoreContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\Models\\EcommerceCoreContext.cs",
               "RelativeToolTip": "aspNetaApiTask\\Models\\EcommerceCoreContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T13:47:35.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T13:47:35.923Z"
             }
           ]
         }

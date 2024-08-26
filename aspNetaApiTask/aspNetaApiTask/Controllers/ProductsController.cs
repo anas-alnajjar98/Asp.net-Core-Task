@@ -16,13 +16,29 @@ namespace aspNetaApiTask.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var Products = _context.Products.ToList();
-            return Ok(Products);
+            var products = _context.Products
+                .Select(p => new
+                {
+                    p.ProductId,
+                    p.ProductName,
+                    p.CategoryId ,
+                    p.Category
+                })
+                .ToList();
+
+            return Ok(products);
         }
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             var Products = _context.Products.FirstOrDefault(x=>x.ProductId==id);
+            return Ok(Products);
+        }
+        [HttpGet("{id}/{price}")]
+        public IActionResult Get(int id, string price)
+        {
+
+            var Products = _context.Products.Where(x => x.CategoryId == id && string.Compare(x.Price, price) > 0).Count();
             return Ok(Products);
         }
     }

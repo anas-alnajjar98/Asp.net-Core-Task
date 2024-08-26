@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aspNetaApiTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+318d0826cb8f62b2f6440d778969977c3ddc1a01")]
 [assembly: System.Reflection.AssemblyProductAttribute("aspNetaApiTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aspNetaApiTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

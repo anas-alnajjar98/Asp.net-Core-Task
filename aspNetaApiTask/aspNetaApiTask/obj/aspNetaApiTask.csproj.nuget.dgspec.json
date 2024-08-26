@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\aspNetaApiTask.csproj": {}
+    "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\aspNetaApiTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\aspNetaApiTask.csproj": {
+    "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\aspNetaApiTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\aspNetaApiTask.csproj",
+        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\aspNetaApiTask.csproj",
         "projectName": "aspNetaApiTask",
-        "projectPath": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\aspNetaApiTask.csproj",
+        "projectPath": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\aspNetaApiTask.csproj",
         "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange\\Desktop\\aspNetaApiTask\\aspNetaApiTask\\obj\\",
+        "outputPath": "C:\\Users\\Orange\\Desktop\\asp.netApiTask\\Asp.net-Core-Task\\aspNetaApiTask\\aspNetaApiTask\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

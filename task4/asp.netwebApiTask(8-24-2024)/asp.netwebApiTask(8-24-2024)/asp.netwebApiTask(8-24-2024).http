@@ -1,0 +1,6 @@
+@asp.netwebApiTask_8_24_2024__HostAddress = http://localhost:5128
+
+GET {{asp.netwebApiTask_8_24_2024__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
