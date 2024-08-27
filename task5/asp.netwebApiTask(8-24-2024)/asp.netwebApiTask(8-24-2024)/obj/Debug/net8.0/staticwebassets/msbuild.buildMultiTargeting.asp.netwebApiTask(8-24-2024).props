@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\asp.netwebApiTask(8-24-2024).props" />
+</Project>

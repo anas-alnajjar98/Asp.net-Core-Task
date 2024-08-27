@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Font Awesome CSS -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Dashbord.css">
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <style>
+        /* General body styling */
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper styling */
+
+/* Main content styling */
+#page-content-wrapper {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Sidebar toggle */
+
+#wrapper.toggled #page-content-wrapper {
+    margin-left: 0;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-bordered th {
+    background-color: #f1f1f1;
+}
+
+/* Responsive table container */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Ensure table does not overflow the container */
+.table {
+    min-width: 1000px; /* Adjust this value based on table content */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #sidebar-wrapper {
+        width: 100%;
+        position: relative;
+    }
+
+    #page-content-wrapper {
+        margin-left: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 100%;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        margin-left: 0;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Dashboard</h2>
+            <hr/>
+
+            <div id="wrapper">
+                <!-- Sidebar -->
+                <div id="sidebar-wrapper">
+                    <ul class="sidebar-nav" style="margin-left:0;">
+                        <li class="sidebar-brand">
+                            <a href="#menu-toggle" id="menu-toggle" style="margin-top:20px;float:right;">
+                                <i class="fa fa-bars" style="font-size:20px !important;" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/dashbordcategory.html"><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> <span style="margin-left:10px;">Category</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-puzzle-piece" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-font" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Main Content -->
+                <div id="page-content-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="container mt-4">
+                                    <h2>Product Management</h2>
+                                    <button class="btn btn-primary mb-3" onclick="createNewCategory()">Create New Product</button>
+                                    <div class="table-responsive">
+                                        <!-- Table wrapper for responsiveness -->
+                                        <table class="table table-bordered" id="categoryTable">
+                                            <thead>
+                                                <tr>
+                                                    <th>Product ID</th>
+                                                    <th>Product Name</th>
+                                                    <th>Description</th>
+                                                    <th>Price</th>
+                                                    <th>Product Image</th>
+                                                    <th>Category ID</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="ProductTableBody">
+                                                <!-- Products will be dynamically inserted here -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p>Welcome to the dashboard!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#page-content-wrapper -->
+            </div>
+            <!-- /#wrapper -->
+        </div>
+    </div>
+
+    <script>
+        // Toggle sidebar visibility
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        </script>
+    <script src="/DashbordProduct.js"></script>
+</body>
+</html>
