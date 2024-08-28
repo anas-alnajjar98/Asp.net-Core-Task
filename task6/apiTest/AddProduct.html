@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="Dashbord.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Some text</h2>
+            <hr/>
+
+            <div id="wrapper">
+                <!-- Sidebar -->
+                <div id="sidebar-wrapper">
+                    <ul class="sidebar-nav" style="margin-left:0;">
+                        <li class="sidebar-brand">
+                            <a href="#menu-toggle" id="menu-toggle" style="margin-top:20px;float:right;">
+                                <i class="fa fa-bars" style="font-size:20px !Important;" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/dashbordcategory.html"><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> <span style="margin-left:10px;">Category</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-puzzle-piece" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-font" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="page-content-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div id="page-content-wrapper">
+                                    <div class="container-fluid">
+                                        <h2>Dashboard</h2>
+                                        <hr/>
+                                        <div class="form-card">
+                                            <form id="ProductForm">
+                                                <div class="form-group">
+                                                    <label for="CategoryName">Name of the new Product</label>
+                                                    <input type="text" class="form-control" id="ProductName" name="ProductName" placeholder="Enter Category name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="CategoryName">Price</label>
+                                                    <input type="number" class="form-control" id="Price" name="Price" placeholder="Enter Category name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="CategoryName">Description of the new Product</label>
+                                                    <input type="text" class="form-control" id="Description" name="Description" placeholder="Enter Category name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <select name="Category" id="Category">
+                                            
+                                                      </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="UploadImage">Upload Image</label>
+                                                    <input type="file" class="form-control-file" id="ProductImage" name="ProductImage" accept="image/*">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                        <p>Welcome to the dashboard!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#page-content-wrapper -->
+            </div>
+            <!-- /#wrapper -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        async function getAlloption() {
+        const url="https://localhost:7216/api/Categories"
+        let request = await fetch(url);
+        let data = await request.json();
+        let option  = document.getElementById("Category");
+        option.innerHTML = ""; 
+        data.forEach((category) => {
+            let newOption=`<option value="${category.categoryId}">${category.categoryName}</option>`;
+            option.innerHTML += newOption;
+        });
+    }
+    getAlloption()
+        document.getElementById('ProductForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            let formData = new FormData();
+            formData.append('ProductName', document.getElementById('ProductName').value);
+            formData.append('Description', document.getElementById('Description').value);
+            formData.append('Price', document.getElementById('Price').value);
+            formData.append('CategoryId', document.getElementById('Category').value);
+            formData.append('ProductImage', document.getElementById('ProductImage').files[0]);
+
+            try {
+                const response = await axios.post('https://localhost:7216/api/Products', formData, {
+                    headers: {
+                        'Content-Type': 'multipart/form-data'
+                    }
+                });
+                console.log(response.data);
+                alert('Category created successfully!');
+                window.location.href = "DashbordProduct.html"
+            } catch (error) {
+                console.error('Error creating category:', error);
+                alert('Failed to create category.');
+            }
+        });
+       
+    </script>
+</body>
+</html>
