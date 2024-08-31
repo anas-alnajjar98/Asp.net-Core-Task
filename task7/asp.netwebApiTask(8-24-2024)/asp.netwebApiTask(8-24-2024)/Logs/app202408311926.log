@@ -1,0 +1,26 @@
+2024-08-31 19:26:04.039 +03:00 [INF] Now listening on: https://localhost:7216
+2024-08-31 19:26:04.068 +03:00 [INF] Now listening on: http://localhost:5128
+2024-08-31 19:26:04.069 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-31 19:26:04.070 +03:00 [INF] Hosting environment: Development
+2024-08-31 19:26:04.070 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\asp.netwebApiTask(8-24-2024)\asp.netwebApiTask(8-24-2024)
+2024-08-31 19:26:05.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/index.html - null null
+2024-08-31 19:26:05.310 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/index.html - 200 null text/html;charset=utf-8 232.4233ms
+2024-08-31 19:26:05.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-31 19:26:05.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_vs/browserLink - null null
+2024-08-31 19:26:05.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 24.5438ms
+2024-08-31 19:26:05.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.4692ms
+2024-08-31 19:26:05.427 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - null null
+2024-08-31 19:26:05.547 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 120.9764ms
+2024-08-31 19:26:54.925 +03:00 [INF] Now listening on: https://localhost:7216
+2024-08-31 19:26:54.952 +03:00 [INF] Now listening on: http://localhost:5128
+2024-08-31 19:26:54.953 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-31 19:26:54.954 +03:00 [INF] Hosting environment: Development
+2024-08-31 19:26:54.954 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\asp.netwebApiTask(8-24-2024)\asp.netwebApiTask(8-24-2024)
+2024-08-31 19:26:55.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/index.html - null null
+2024-08-31 19:26:56.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/index.html - 200 null text/html;charset=utf-8 272.1499ms
+2024-08-31 19:26:56.099 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-31 19:26:56.099 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_vs/browserLink - null null
+2024-08-31 19:26:56.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 6.9426ms
+2024-08-31 19:26:56.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.2753ms
+2024-08-31 19:26:56.191 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - null null
+2024-08-31 19:26:56.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 232.1015ms

@@ -1,0 +1,176 @@
+2024-08-31 19:31:03.106 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - null null
+2024-08-31 19:31:03.110 +03:00 [INF] CORS policy execution successful.
+2024-08-31 19:31:03.111 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:03.111 +03:00 [INF] Route matched with {action = "GetCartByID", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartByID(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:31:03.115 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CartID], [t0].[CartItemId], [t0].[CartId], [t0].[Quantity], [t0].[ProductId], [t0].[Price], [t0].[ProductName]
+FROM (
+    SELECT TOP(1) [c].[CartID]
+    FROM [Carts] AS [c]
+    WHERE [c].[UserID] = @__id_0
+) AS [t]
+OUTER APPLY (
+    SELECT [c0].[CartItemID] AS [CartItemId], [t].[CartID] AS [CartId], [c0].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[ProductName]
+    FROM [CartItems] AS [c0]
+    LEFT JOIN [Product] AS [p] ON [c0].[ProductID] = [p].[ProductID]
+    WHERE [t].[CartID] = [c0].[CartID]
+) AS [t0]
+ORDER BY [t].[CartID], [t0].[CartItemId]
+2024-08-31 19:31:03.117 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:31:03.119 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024)) in 5.6766ms
+2024-08-31 19:31:03.120 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:03.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - 200 null application/json; charset=utf-8 14.6313ms
+2024-08-31 19:31:43.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - null null
+2024-08-31 19:31:43.178 +03:00 [INF] CORS policy execution successful.
+2024-08-31 19:31:43.179 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.180 +03:00 [INF] Route matched with {action = "GetCartByID", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartByID(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:31:43.182 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CartID], [t0].[CartItemId], [t0].[CartId], [t0].[Quantity], [t0].[ProductId], [t0].[Price], [t0].[ProductName]
+FROM (
+    SELECT TOP(1) [c].[CartID]
+    FROM [Carts] AS [c]
+    WHERE [c].[UserID] = @__id_0
+) AS [t]
+OUTER APPLY (
+    SELECT [c0].[CartItemID] AS [CartItemId], [t].[CartID] AS [CartId], [c0].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[ProductName]
+    FROM [CartItems] AS [c0]
+    LEFT JOIN [Product] AS [p] ON [c0].[ProductID] = [p].[ProductID]
+    WHERE [t].[CartID] = [c0].[CartID]
+) AS [t0]
+ORDER BY [t].[CartID], [t0].[CartItemId]
+2024-08-31 19:31:43.184 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:31:43.185 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024)) in 3.795ms
+2024-08-31 19:31:43.185 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - null null
+2024-08-31 19:31:43.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - 200 null application/json; charset=utf-8 18.0828ms
+2024-08-31 19:31:43.195 +03:00 [INF] CORS policy execution successful.
+2024-08-31 19:31:43.198 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.198 +03:00 [INF] Route matched with {action = "GetCartByID", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartByID(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:31:43.201 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CartID], [t0].[CartItemId], [t0].[CartId], [t0].[Quantity], [t0].[ProductId], [t0].[Price], [t0].[ProductName]
+FROM (
+    SELECT TOP(1) [c].[CartID]
+    FROM [Carts] AS [c]
+    WHERE [c].[UserID] = @__id_0
+) AS [t]
+OUTER APPLY (
+    SELECT [c0].[CartItemID] AS [CartItemId], [t].[CartID] AS [CartId], [c0].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[ProductName]
+    FROM [CartItems] AS [c0]
+    LEFT JOIN [Product] AS [p] ON [c0].[ProductID] = [p].[ProductID]
+    WHERE [t].[CartID] = [c0].[CartID]
+) AS [t0]
+ORDER BY [t].[CartID], [t0].[CartItemId]
+2024-08-31 19:31:43.203 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:31:43.204 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024)) in 4.614ms
+2024-08-31 19:31:43.205 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.206 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - null null
+2024-08-31 19:31:43.206 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - 200 null application/json; charset=utf-8 20.0332ms
+2024-08-31 19:31:43.207 +03:00 [INF] CORS policy execution successful.
+2024-08-31 19:31:43.210 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.210 +03:00 [INF] Route matched with {action = "GetCartByID", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartByID(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:31:43.213 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CartID], [t0].[CartItemId], [t0].[CartId], [t0].[Quantity], [t0].[ProductId], [t0].[Price], [t0].[ProductName]
+FROM (
+    SELECT TOP(1) [c].[CartID]
+    FROM [Carts] AS [c]
+    WHERE [c].[UserID] = @__id_0
+) AS [t]
+OUTER APPLY (
+    SELECT [c0].[CartItemID] AS [CartItemId], [t].[CartID] AS [CartId], [c0].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[ProductName]
+    FROM [CartItems] AS [c0]
+    LEFT JOIN [Product] AS [p] ON [c0].[ProductID] = [p].[ProductID]
+    WHERE [t].[CartID] = [c0].[CartID]
+) AS [t0]
+ORDER BY [t].[CartID], [t0].[CartItemId]
+2024-08-31 19:31:43.214 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:31:43.215 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024)) in 3.5925ms
+2024-08-31 19:31:43.216 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.216 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - null null
+2024-08-31 19:31:43.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - 200 null application/json; charset=utf-8 11.2889ms
+2024-08-31 19:31:43.220 +03:00 [INF] CORS policy execution successful.
+2024-08-31 19:31:43.222 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.223 +03:00 [INF] Route matched with {action = "GetCartByID", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartByID(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:31:43.225 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CartID], [t0].[CartItemId], [t0].[CartId], [t0].[Quantity], [t0].[ProductId], [t0].[Price], [t0].[ProductName]
+FROM (
+    SELECT TOP(1) [c].[CartID]
+    FROM [Carts] AS [c]
+    WHERE [c].[UserID] = @__id_0
+) AS [t]
+OUTER APPLY (
+    SELECT [c0].[CartItemID] AS [CartItemId], [t].[CartID] AS [CartId], [c0].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[ProductName]
+    FROM [CartItems] AS [c0]
+    LEFT JOIN [Product] AS [p] ON [c0].[ProductID] = [p].[ProductID]
+    WHERE [t].[CartID] = [c0].[CartID]
+) AS [t0]
+ORDER BY [t].[CartID], [t0].[CartItemId]
+2024-08-31 19:31:43.227 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:31:43.227 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024)) in 3.4397ms
+2024-08-31 19:31:43.228 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - null null
+2024-08-31 19:31:43.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - 200 null application/json; charset=utf-8 12.7648ms
+2024-08-31 19:31:43.230 +03:00 [INF] CORS policy execution successful.
+2024-08-31 19:31:43.232 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.233 +03:00 [INF] Route matched with {action = "GetCartByID", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartByID(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:31:43.235 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CartID], [t0].[CartItemId], [t0].[CartId], [t0].[Quantity], [t0].[ProductId], [t0].[Price], [t0].[ProductName]
+FROM (
+    SELECT TOP(1) [c].[CartID]
+    FROM [Carts] AS [c]
+    WHERE [c].[UserID] = @__id_0
+) AS [t]
+OUTER APPLY (
+    SELECT [c0].[CartItemID] AS [CartItemId], [t].[CartID] AS [CartId], [c0].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[ProductName]
+    FROM [CartItems] AS [c0]
+    LEFT JOIN [Product] AS [p] ON [c0].[ProductID] = [p].[ProductID]
+    WHERE [t].[CartID] = [c0].[CartID]
+) AS [t0]
+ORDER BY [t].[CartID], [t0].[CartItemId]
+2024-08-31 19:31:43.236 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:31:43.236 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024)) in 2.7655ms
+2024-08-31 19:31:43.237 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.238 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - null null
+2024-08-31 19:31:43.239 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - 200 null application/json; charset=utf-8 10.3077ms
+2024-08-31 19:31:43.240 +03:00 [INF] CORS policy execution successful.
+2024-08-31 19:31:43.243 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.244 +03:00 [INF] Route matched with {action = "GetCartByID", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartByID(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:31:43.246 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CartID], [t0].[CartItemId], [t0].[CartId], [t0].[Quantity], [t0].[ProductId], [t0].[Price], [t0].[ProductName]
+FROM (
+    SELECT TOP(1) [c].[CartID]
+    FROM [Carts] AS [c]
+    WHERE [c].[UserID] = @__id_0
+) AS [t]
+OUTER APPLY (
+    SELECT [c0].[CartItemID] AS [CartItemId], [t].[CartID] AS [CartId], [c0].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[ProductName]
+    FROM [CartItems] AS [c0]
+    LEFT JOIN [Product] AS [p] ON [c0].[ProductID] = [p].[ProductID]
+    WHERE [t].[CartID] = [c0].[CartID]
+) AS [t0]
+ORDER BY [t].[CartID], [t0].[CartItemId]
+2024-08-31 19:31:43.247 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:31:43.248 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024)) in 3.0201ms
+2024-08-31 19:31:43.249 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - null null
+2024-08-31 19:31:43.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - 200 null application/json; charset=utf-8 11.9921ms
+2024-08-31 19:31:43.251 +03:00 [INF] CORS policy execution successful.
+2024-08-31 19:31:43.252 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.253 +03:00 [INF] Route matched with {action = "GetCartByID", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartByID(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:31:43.255 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CartID], [t0].[CartItemId], [t0].[CartId], [t0].[Quantity], [t0].[ProductId], [t0].[Price], [t0].[ProductName]
+FROM (
+    SELECT TOP(1) [c].[CartID]
+    FROM [Carts] AS [c]
+    WHERE [c].[UserID] = @__id_0
+) AS [t]
+OUTER APPLY (
+    SELECT [c0].[CartItemID] AS [CartItemId], [t].[CartID] AS [CartId], [c0].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[ProductName]
+    FROM [CartItems] AS [c0]
+    LEFT JOIN [Product] AS [p] ON [c0].[ProductID] = [p].[ProductID]
+    WHERE [t].[CartID] = [c0].[CartID]
+) AS [t0]
+ORDER BY [t].[CartID], [t0].[CartItemId]
+2024-08-31 19:31:43.257 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:31:43.258 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024)) in 3.6548ms
+2024-08-31 19:31:43.258 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetCartByID (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:31:43.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/getCartByID/1 - 200 null application/json; charset=utf-8 9.9328ms

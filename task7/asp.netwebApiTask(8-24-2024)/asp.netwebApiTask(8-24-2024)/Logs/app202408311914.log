@@ -1,0 +1,24 @@
+2024-08-31 19:14:41.951 +03:00 [INF] Now listening on: https://localhost:7216
+2024-08-31 19:14:41.979 +03:00 [INF] Now listening on: http://localhost:5128
+2024-08-31 19:14:41.980 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-31 19:14:41.981 +03:00 [INF] Hosting environment: Development
+2024-08-31 19:14:41.981 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\asp.netwebApiTask(8-24-2024)\asp.netwebApiTask(8-24-2024)
+2024-08-31 19:14:42.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/index.html - null null
+2024-08-31 19:14:43.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_vs/browserLink - null null
+2024-08-31 19:14:43.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-31 19:14:43.289 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/index.html - 200 null text/html;charset=utf-8 314.6967ms
+2024-08-31 19:14:43.307 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 20.8666ms
+2024-08-31 19:14:43.397 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.3775ms
+2024-08-31 19:14:43.446 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - null null
+2024-08-31 19:14:43.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 197.3621ms
+2024-08-31 19:14:47.735 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/CartItem/GetAllItem - null null
+2024-08-31 19:14:47.744 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetAllitems (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:14:47.753 +03:00 [INF] Route matched with {action = "GetAllitems", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllitems() on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 19:14:48.713 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[ProductName], [p].[Price]
+FROM [CartItems] AS [c]
+LEFT JOIN [Product] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-31 19:14:48.737 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.DTOs.CartItemRequestDTO, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-31 19:14:48.753 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetAllitems (asp.netwebApiTask(8-24-2024)) in 996.6726ms
+2024-08-31 19:14:48.755 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.GetAllitems (asp.netwebApiTask(8-24-2024))'
+2024-08-31 19:14:48.763 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/CartItem/GetAllItem - 200 null application/json; charset=utf-8 1028.7524ms

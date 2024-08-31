@@ -1,0 +1,11 @@
+2024-08-31 20:03:18.614 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7216/api/CartItem/UpdateCartItemQuantity/5 - null null
+2024-08-31 20:03:18.623 +03:00 [INF] CORS policy execution successful.
+2024-08-31 20:03:18.633 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7216/api/CartItem/UpdateCartItemQuantity/5 - 204 null null 19.0456ms
+2024-08-31 20:03:18.638 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7216/api/CartItem/UpdateCartItemQuantity/5 - application/json 17
+2024-08-31 20:03:18.641 +03:00 [INF] CORS policy execution successful.
+2024-08-31 20:03:18.643 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.UpdateCartItemQuantity (asp.netwebApiTask(8-24-2024))'
+2024-08-31 20:03:18.643 +03:00 [INF] Route matched with {action = "UpdateCartItemQuantity", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCartItemQuantity(Int32, Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 20:03:18.646 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-08-31 20:03:18.676 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.UpdateCartItemQuantity (asp.netwebApiTask(8-24-2024)) in 31.076ms
+2024-08-31 20:03:18.676 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.UpdateCartItemQuantity (asp.netwebApiTask(8-24-2024))'
+2024-08-31 20:03:18.677 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7216/api/CartItem/UpdateCartItemQuantity/5 - 400 null application/problem+json; charset=utf-8 39.2346ms

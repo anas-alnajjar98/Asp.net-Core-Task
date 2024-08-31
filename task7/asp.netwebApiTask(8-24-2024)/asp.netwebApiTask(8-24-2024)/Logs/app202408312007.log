@@ -1,0 +1,18 @@
+2024-08-31 20:07:02.581 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7216/api/CartItem/DeletCartItemByID(5) - null null
+2024-08-31 20:07:02.585 +03:00 [INF] CORS policy execution successful.
+2024-08-31 20:07:02.585 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.DeleteCartItem (asp.netwebApiTask(8-24-2024))'
+2024-08-31 20:07:02.588 +03:00 [INF] Route matched with {action = "DeleteCartItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteCartItem(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.CartItemController (asp.netwebApiTask(8-24-2024)).
+2024-08-31 20:07:02.601 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__id_0
+2024-08-31 20:07:02.637 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItems]
+OUTPUT 1
+WHERE [CartItemID] = @p0;
+2024-08-31 20:07:02.644 +03:00 [INF] Executing OkObjectResult, writing value of type 'asp.netwebApiTask_8_24_2024_.Models.CartItem'.
+2024-08-31 20:07:02.645 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.DeleteCartItem (asp.netwebApiTask(8-24-2024)) in 50.5618ms
+2024-08-31 20:07:02.645 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CartItemController.DeleteCartItem (asp.netwebApiTask(8-24-2024))'
+2024-08-31 20:07:02.646 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7216/api/CartItem/DeletCartItemByID(5) - 200 null application/json; charset=utf-8 65.6143ms
