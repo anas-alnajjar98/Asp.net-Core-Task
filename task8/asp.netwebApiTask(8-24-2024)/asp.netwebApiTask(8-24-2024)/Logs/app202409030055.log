@@ -1,0 +1,49 @@
+2024-09-03 00:55:50.962 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024)) in 115642.2518ms
+2024-09-03 00:55:50.970 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - multipart/form-data; boundary=----WebKitFormBoundaryP9dJ5xMx4D4n4qeQ 392
+2024-09-03 00:55:50.973 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - multipart/form-data; boundary=----WebKitFormBoundaryP9dJ5xMx4D4n4qeQ 392
+2024-09-03 00:55:51.014 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:55:51.014 +03:00 [INF] CORS policy execution successful.
+2024-09-03 00:55:51.016 +03:00 [INF] CORS policy execution successful.
+2024-09-03 00:55:51.019 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at asp.netwebApiTask_8_24_2024_.DTOs.HashingAlgoratim.CreatePasswordHash(String password, Byte[]& passwordHash, Byte[]& passwordSalt) in C:\Users\Orange\Desktop\asp.netwebApiTask(8-24-2024)\asp.netwebApiTask(8-24-2024)\DTOs\HashingAlgoratim.cs:line 10
+   at asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser(UserReqestDTO userDto) in C:\Users\Orange\Desktop\asp.netwebApiTask(8-24-2024)\asp.netwebApiTask(8-24-2024)\Controllers\(UsersController.cs:line 99
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-03 00:55:51.019 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:55:51.022 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:55:51.028 +03:00 [INF] Route matched with {action = "addUser", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(asp.netwebApiTask_8_24_2024_.DTOs.UserReqestDTO) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 00:55:51.028 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - 500 null text/plain; charset=utf-8 115720.6437ms
+2024-09-03 00:55:51.029 +03:00 [INF] Route matched with {action = "addUser", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(asp.netwebApiTask_8_24_2024_.DTOs.UserReqestDTO) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 00:55:51.035 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-03 00:55:51.038 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024)) in 7.9828ms
+2024-09-03 00:55:51.038 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:55:51.039 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - 499 null application/problem+json; charset=utf-8 69.8699ms
+2024-09-03 00:55:57.584 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-03 00:55:57.642 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-09-03 00:55:57.646 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024)) in 6614.1571ms
+2024-09-03 00:55:57.646 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:55:57.655 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - 200 0 null 6682.7544ms

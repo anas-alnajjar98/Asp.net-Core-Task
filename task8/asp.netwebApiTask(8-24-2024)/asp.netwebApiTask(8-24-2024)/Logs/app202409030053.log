@@ -1,0 +1,7 @@
+2024-09-03 00:53:55.293 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7216/api/_Users/addnewuser - null null
+2024-09-03 00:53:55.305 +03:00 [INF] CORS policy execution successful.
+2024-09-03 00:53:55.306 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7216/api/_Users/addnewuser - 204 null null 13.6173ms
+2024-09-03 00:53:55.308 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - application/json 106
+2024-09-03 00:53:55.310 +03:00 [INF] CORS policy execution successful.
+2024-09-03 00:53:55.311 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:53:55.318 +03:00 [INF] Route matched with {action = "addUser", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(asp.netwebApiTask_8_24_2024_.DTOs.UserReqestDTO) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).

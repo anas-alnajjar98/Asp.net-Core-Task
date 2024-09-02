@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="Dashbord.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Some text</h2>
+            <hr/>
+
+            <div id="wrapper">
+                <!-- Sidebar -->
+                <div id="sidebar-wrapper">
+                    <ul class="sidebar-nav" style="margin-left:0;">
+                        <li class="sidebar-brand">
+                            <a href="#menu-toggle" id="menu-toggle" style="margin-top:20px;float:right;">
+                                <i class="fa fa-bars" style="font-size:20px !Important;" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/dashbordcategory.html"><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> <span style="margin-left:10px;">Category</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-puzzle-piece" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-font" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> <span style="margin-left:10px;">Section</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="page-content-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div id="page-content-wrapper">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="container mt-4">
+                                                    <form id="form">
+                                                        <div class="form-group">
+                                                          <label for="exampleInputEmail1">CategoryImage</label>
+                                                          <input type="file" class="form-control" name="CategoryImage" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                                         
+                                                        </div>
+                                                        <div class="form-group">
+                                                          <label for="exampleInputPassword1">CategoryName</label>
+                                                          <input type="text" class="form-control" name="CategoryName" id="exampleInputPassword1" placeholder="CategoryName">
+                                                        </div>
+                                                       
+                                                        <button type="submit" class="btn btn-primary" onclick="fun2()">Submit</button>
+                                                      </form>
+                                                <p>Welcome to the dashboard!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                
+                                <p>Welcome to the dashboard!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#page-content-wrapper -->
+            </div>
+            <!-- /#wrapper -->
+        </div>
+    </div>
+
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+    <script src="/editCategory.js"></script>
+</body>
+</html>

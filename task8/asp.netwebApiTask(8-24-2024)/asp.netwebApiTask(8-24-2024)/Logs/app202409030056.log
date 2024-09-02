@@ -1,0 +1,14 @@
+2024-09-03 00:56:11.505 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - multipart/form-data; boundary=----WebKitFormBoundaryGDs12FU2Aidi2Znc 392
+2024-09-03 00:56:11.508 +03:00 [INF] CORS policy execution successful.
+2024-09-03 00:56:11.509 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:56:11.510 +03:00 [INF] Route matched with {action = "addUser", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(asp.netwebApiTask_8_24_2024_.DTOs.UserReqestDTO) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 00:56:19.342 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-03 00:56:20.858 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-09-03 00:56:20.858 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024)) in 9343.575ms
+2024-09-03 00:56:20.859 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:56:20.860 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - 200 0 null 9355.7438ms

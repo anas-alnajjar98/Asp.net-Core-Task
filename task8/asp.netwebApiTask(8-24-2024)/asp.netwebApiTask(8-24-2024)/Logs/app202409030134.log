@@ -1,0 +1,24 @@
+2024-09-03 01:34:42.369 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/_Users/name/r - null null
+2024-09-03 01:34:42.376 +03:00 [INF] CORS policy execution successful.
+2024-09-03 01:34:42.378 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024))'
+2024-09-03 01:34:42.379 +03:00 [INF] Route matched with {action = "GetUserByName", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUserByName(System.String) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 01:34:42.395 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__name_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__name_0
+2024-09-03 01:34:42.398 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-03 01:34:42.399 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024)) in 11.2344ms
+2024-09-03 01:34:42.400 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024))'
+2024-09-03 01:34:42.401 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/_Users/name/r - 404 null application/problem+json; charset=utf-8 35.2349ms
+2024-09-03 01:34:45.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/_Users/name/rr - null null
+2024-09-03 01:34:45.503 +03:00 [INF] CORS policy execution successful.
+2024-09-03 01:34:45.505 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024))'
+2024-09-03 01:34:45.506 +03:00 [INF] Route matched with {action = "GetUserByName", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUserByName(System.String) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 01:34:45.511 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__name_0
+2024-09-03 01:34:45.513 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-03 01:34:45.516 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024)) in 7.3297ms
+2024-09-03 01:34:45.517 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024))'
+2024-09-03 01:34:45.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/_Users/name/rr - 404 null application/problem+json; charset=utf-8 17.6782ms

@@ -1,0 +1,17 @@
+2024-09-03 00:38:06.597 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - multipart/form-data; boundary=----WebKitFormBoundary0YMuTAjHnIhglAgA 44
+2024-09-03 00:38:06.607 +03:00 [INF] CORS policy execution successful.
+2024-09-03 00:38:06.609 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 00:38:06.610 +03:00 [INF] Route matched with {action = "addUser", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(asp.netwebApiTask_8_24_2024_.DTOs.UserReqestDTO) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 00:38:17.510 +03:00 [INF] Now listening on: https://localhost:7216
+2024-09-03 00:38:17.560 +03:00 [INF] Now listening on: http://localhost:5128
+2024-09-03 00:38:17.562 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-03 00:38:17.562 +03:00 [INF] Hosting environment: Development
+2024-09-03 00:38:17.563 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\asp.netwebApiTask(8-24-2024)\asp.netwebApiTask(8-24-2024)
+2024-09-03 00:38:18.074 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/index.html - null null
+2024-09-03 00:38:18.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 00:38:18.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_vs/browserLink - null null
+2024-09-03 00:38:18.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/index.html - 200 null text/html;charset=utf-8 235.7245ms
+2024-09-03 00:38:18.323 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 21.3144ms
+2024-09-03 00:38:18.377 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.6718ms
+2024-09-03 00:38:18.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - null null
+2024-09-03 00:38:18.685 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.7324ms

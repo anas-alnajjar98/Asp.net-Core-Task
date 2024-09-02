@@ -1,0 +1,12 @@
+2024-09-03 01:28:00.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/_Users/name/hr_manager@outlook.com - null null
+2024-09-03 01:28:00.337 +03:00 [INF] CORS policy execution successful.
+2024-09-03 01:28:00.342 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024))'
+2024-09-03 01:28:00.346 +03:00 [INF] Route matched with {action = "GetUserByName", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUserByName(System.String) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 01:28:00.357 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__name_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__name_0
+2024-09-03 01:28:00.358 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.User, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 01:28:00.359 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024)) in 9.5589ms
+2024-09-03 01:28:00.360 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024))'
+2024-09-03 01:28:00.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/_Users/name/hr_manager@outlook.com - 200 null application/json; charset=utf-8 28.8794ms
