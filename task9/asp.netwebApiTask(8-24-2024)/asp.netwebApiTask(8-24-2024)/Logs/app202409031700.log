@@ -1,0 +1,17 @@
+2024-09-03 17:00:41.353 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 17:00:41.366 +03:00 [INF] CORS policy execution successful.
+2024-09-03 17:00:41.368 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 204 null null 15.2016ms
+2024-09-03 17:00:41.370 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 17:00:41.371 +03:00 [INF] CORS policy execution successful.
+2024-09-03 17:00:41.381 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2024-09-03 17:00:41.382 +03:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-09-03 17:00:41.383 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 17:00:41.384 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 17:00:41.384 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 401 0 null 14.4192ms

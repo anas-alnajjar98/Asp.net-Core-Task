@@ -1,0 +1,12 @@
+2024-09-03 16:59:00.111 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 16:59:00.116 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:59:00.119 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 16:59:00.119 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 16:59:00.119 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 401 0 null 8.0961ms
+2024-09-03 16:59:02.549 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 16:59:02.552 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:59:02.553 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 16:59:02.555 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 16:59:02.557 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 401 0 null 8.276ms

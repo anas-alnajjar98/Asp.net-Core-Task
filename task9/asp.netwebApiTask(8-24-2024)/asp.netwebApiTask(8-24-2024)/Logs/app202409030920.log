@@ -1,0 +1,10 @@
+2024-09-03 09:20:14.315 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-03 09:20:14.382 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-09-03 09:20:14.391 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024)) in 21799.7178ms
+2024-09-03 09:20:14.393 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 09:20:14.406 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - 200 0 null 21869.0631ms

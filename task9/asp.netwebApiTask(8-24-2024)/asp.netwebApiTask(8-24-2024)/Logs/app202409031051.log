@@ -1,0 +1,26 @@
+2024-09-03 10:51:15.621 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - multipart/form-data; boundary=----WebKitFormBoundaryqZbUsphpP6sCWttK 345
+2024-09-03 10:51:15.647 +03:00 [INF] CORS policy execution successful.
+2024-09-03 10:51:15.650 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 10:51:15.654 +03:00 [INF] Route matched with {action = "addUser", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(asp.netwebApiTask_8_24_2024_.DTOs.UserReqestDTO) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 10:51:23.424 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-03 10:51:24.552 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-09-03 10:51:24.554 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024)) in 8896.6784ms
+2024-09-03 10:51:24.555 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 10:51:24.558 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - 200 0 null 8939.2647ms
+2024-09-03 10:51:50.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/_Users/name/anas - null null
+2024-09-03 10:51:50.154 +03:00 [INF] CORS policy execution successful.
+2024-09-03 10:51:50.156 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024))'
+2024-09-03 10:51:50.165 +03:00 [INF] Route matched with {action = "GetUserByName", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUserByName(System.String) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 10:51:50.817 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__name_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__name_0
+2024-09-03 10:51:50.850 +03:00 [INF] Executing OkObjectResult, writing value of type 'asp.netwebApiTask_8_24_2024_.Models.User'.
+2024-09-03 10:51:50.915 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024)) in 748.0733ms
+2024-09-03 10:51:50.918 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.GetUserByName (asp.netwebApiTask(8-24-2024))'
+2024-09-03 10:51:50.920 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/_Users/name/anas - 200 null application/json; charset=utf-8 784.1331ms

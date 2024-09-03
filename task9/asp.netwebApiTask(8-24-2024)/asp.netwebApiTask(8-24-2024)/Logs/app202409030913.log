@@ -1,0 +1,13 @@
+2024-09-03 09:13:40.931 +03:00 [INF] Now listening on: https://localhost:7216
+2024-09-03 09:13:41.033 +03:00 [INF] Now listening on: http://localhost:5128
+2024-09-03 09:13:41.036 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-03 09:13:41.050 +03:00 [INF] Hosting environment: Development
+2024-09-03 09:13:41.051 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\asp.netwebApiTask(8-24-2024)\asp.netwebApiTask(8-24-2024)
+2024-09-03 09:13:42.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/index.html - null null
+2024-09-03 09:13:43.100 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/index.html - 200 null text/html;charset=utf-8 947.6742ms
+2024-09-03 09:13:43.114 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 09:13:43.114 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_vs/browserLink - null null
+2024-09-03 09:13:43.128 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 14.1534ms
+2024-09-03 09:13:43.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.3784ms
+2024-09-03 09:13:43.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - null null
+2024-09-03 09:13:43.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 228.9248ms

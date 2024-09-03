@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\controllers\\(userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\controllers\\(userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\dtos\\hashingalgoratim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\dtos\\hashingalgoratim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\dtos\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\dtos\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\dtos\\usercartrequestdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\dtos\\usercartrequestdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\dtos\\cartitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\dtos\\cartitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|c:\\users\\orange\\desktop\\asp.netwebapitask(8-24-2024)\\asp.netwebapitask(8-24-2024)\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D0B52D-5B92-4BB4-A4E0-A8CC0150D953}|asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024).csproj|solutionrelative:asp.netwebapitask(8-24-2024)\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\DTOs\\TokenGenerator.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\DTOs\\TokenGenerator.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\DTOs\\TokenGenerator.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\DTOs\\TokenGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:28:14.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "(UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Controllers\\(UsersController.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Controllers\\(UsersController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Controllers\\(UsersController.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Controllers\\(UsersController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAcwIIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T08:13:55.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Program.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Program.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAF4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T07:57:15.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Models\\User.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Models\\User.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T09:21:49.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\appsettings.json",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\appsettings.json",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\appsettings.json",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwB4AAACKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-29T07:56:20.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwCMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T06:05:39.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HashingAlgoratim.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\DTOs\\HashingAlgoratim.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\DTOs\\HashingAlgoratim.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\DTOs\\HashingAlgoratim.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\DTOs\\HashingAlgoratim.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:55:23.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:41:34.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Controllers\\CartItemController.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Controllers\\CartItemController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Controllers\\CartItemController.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Controllers\\CartItemController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAkwE8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:12:09.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Models\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T09:50:39.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartItemRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\DTOs\\CartItemRequestDTO.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\DTOs\\CartItemRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\DTOs\\CartItemRequestDTO.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\DTOs\\CartItemRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T16:12:24.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserCartRequestDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\DTOs\\UserCartRequestDTOs.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\DTOs\\UserCartRequestDTOs.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\DTOs\\UserCartRequestDTOs.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\DTOs\\UserCartRequestDTOs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:14:55.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Models\\Cart.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:32:33.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "asp.netwebApiTask(8-24-2024)\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\asp.netwebApiTask(8-24-2024)\\asp.netwebApiTask(8-24-2024)\\Models\\CartItem.cs",
+              "RelativeToolTip": "asp.netwebApiTask(8-24-2024)\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T07:59:58.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

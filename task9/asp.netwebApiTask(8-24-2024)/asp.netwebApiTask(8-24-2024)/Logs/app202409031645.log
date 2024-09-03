@@ -1,0 +1,26 @@
+2024-09-03 16:45:25.310 +03:00 [INF] User profile is available. Using 'C:\Users\Orange\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-03 16:45:25.879 +03:00 [INF] Now listening on: https://localhost:7216
+2024-09-03 16:45:25.880 +03:00 [INF] Now listening on: http://localhost:5128
+2024-09-03 16:45:25.881 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-03 16:45:25.882 +03:00 [INF] Hosting environment: Development
+2024-09-03 16:45:25.882 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\asp.netwebApiTask(8-24-2024)\asp.netwebApiTask(8-24-2024)
+2024-09-03 16:45:26.695 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/index.html - null null
+2024-09-03 16:45:26.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/index.html - 200 null text/html;charset=utf-8 302.0937ms
+2024-09-03 16:45:27.003 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 16:45:27.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_vs/browserLink - null null
+2024-09-03 16:45:27.038 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 34.0733ms
+2024-09-03 16:45:27.088 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.6011ms
+2024-09-03 16:45:27.276 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - null null
+2024-09-03 16:45:27.436 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.3076ms
+2024-09-03 16:45:40.171 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7216/api/_Users/LoginUser - multipart/form-data; boundary=----WebKitFormBoundaryQ2c0AJ9OLBStwW4U 335
+2024-09-03 16:45:40.182 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:45:40.299 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.LoginUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:45:40.317 +03:00 [INF] Route matched with {action = "LoginUser", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginUser(asp.netwebApiTask_8_24_2024_.DTOs.UserReqestDTO) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 16:45:41.937 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[@__User_Email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__User_Email_0
+2024-09-03 16:45:41.960 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-03 16:45:41.985 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers._UsersController.LoginUser (asp.netwebApiTask(8-24-2024)) in 1662.389ms
+2024-09-03 16:45:41.986 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.LoginUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:45:41.995 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7216/api/_Users/LoginUser - 401 null application/problem+json; charset=utf-8 1824.1348ms

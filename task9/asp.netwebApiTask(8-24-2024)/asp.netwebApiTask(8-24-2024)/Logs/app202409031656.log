@@ -1,0 +1,11 @@
+2024-09-03 16:56:49.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Categories - null null
+2024-09-03 16:56:49.445 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:56:49.446 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:56:49.448 +03:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 16:56:49.459 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-09-03 16:56:49.467 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Category, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 16:56:49.470 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024)) in 21.5976ms
+2024-09-03 16:56:49.471 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:56:49.472 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Categories - 200 null application/json; charset=utf-8 37.3716ms

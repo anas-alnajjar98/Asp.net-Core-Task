@@ -1,0 +1,102 @@
+2024-09-03 16:57:21.377 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Categories - null null
+2024-09-03 16:57:21.387 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:21.388 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:21.389 +03:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 16:57:21.394 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-09-03 16:57:21.396 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Category, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 16:57:21.398 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024)) in 7.5917ms
+2024-09-03 16:57:21.399 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:21.400 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Categories - 200 null application/json; charset=utf-8 23.0586ms
+2024-09-03 16:57:26.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 16:57:26.489 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:26.496 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 16:57:26.500 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 16:57:26.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 401 0 null 14.3953ms
+2024-09-03 16:57:31.772 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 16:57:31.775 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:31.776 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 16:57:31.777 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 16:57:31.778 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 401 0 null 6.4451ms
+2024-09-03 16:57:33.579 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/2 - null null
+2024-09-03 16:57:33.581 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:33.584 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 16:57:33.585 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 16:57:33.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/2 - 401 0 null 6.9337ms
+2024-09-03 16:57:37.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/4 - null null
+2024-09-03 16:57:37.184 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:37.185 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 16:57:37.185 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 16:57:37.186 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/4 - 401 0 null 4.3011ms
+2024-09-03 16:57:41.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/6 - null null
+2024-09-03 16:57:41.452 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:41.452 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 16:57:41.453 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 16:57:41.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/6 - 401 0 null 4.9193ms
+2024-09-03 16:57:46.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Categories - null null
+2024-09-03 16:57:46.395 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:46.396 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:46.397 +03:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 16:57:46.401 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-09-03 16:57:46.405 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Category, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 16:57:46.406 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024)) in 7.2584ms
+2024-09-03 16:57:46.408 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:46.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Categories - 200 null application/json; charset=utf-8 15.7769ms
+2024-09-03 16:57:49.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Categories - null null
+2024-09-03 16:57:49.240 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:49.241 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:49.241 +03:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 16:57:49.244 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-09-03 16:57:49.246 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Category, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 16:57:49.247 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024)) in 4.3915ms
+2024-09-03 16:57:49.249 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:49.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Categories - 200 null application/json; charset=utf-8 11.0024ms
+2024-09-03 16:57:50.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products - null null
+2024-09-03 16:57:50.046 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:50.047 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetAllProducts (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:50.049 +03:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller asp.netwebApiTask_8_24_2024_.Controllers.ProductsController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 16:57:50.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Categories - null null
+2024-09-03 16:57:50.057 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:50.058 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:50.059 +03:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 16:57:50.063 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-09-03 16:57:50.063 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Product] AS [p]
+2024-09-03 16:57:50.064 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Category, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 16:57:50.065 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024)) in 5.6336ms
+2024-09-03 16:57:50.066 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:50.067 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Categories - 200 null application/json; charset=utf-8 12.7372ms
+2024-09-03 16:57:50.083 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Product, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 16:57:50.089 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetAllProducts (asp.netwebApiTask(8-24-2024)) in 38.627ms
+2024-09-03 16:57:50.090 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetAllProducts (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:50.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products - 200 null application/json; charset=utf-8 46.8572ms
+2024-09-03 16:57:53.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Categories - null null
+2024-09-03 16:57:53.956 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:53.956 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:53.957 +03:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 16:57:53.960 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-09-03 16:57:53.961 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Category, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 16:57:53.964 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024)) in 5.9576ms
+2024-09-03 16:57:53.965 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 16:57:53.965 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Categories - 200 null application/json; charset=utf-8 11.5869ms
+2024-09-03 16:57:54.913 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 16:57:54.915 +03:00 [INF] CORS policy execution successful.
+2024-09-03 16:57:54.916 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-03 16:57:54.916 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-03 16:57:54.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 401 0 null 4.2183ms

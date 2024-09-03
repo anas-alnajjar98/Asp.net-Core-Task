@@ -1,0 +1,53 @@
+2024-09-03 17:14:18.223 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 17:14:18.231 +03:00 [INF] CORS policy execution successful.
+2024-09-03 17:14:18.231 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 204 null null 8.7592ms
+2024-09-03 17:14:18.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 17:14:18.234 +03:00 [INF] CORS policy execution successful.
+2024-09-03 17:14:18.288 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024))'
+2024-09-03 17:14:18.291 +03:00 [INF] Route matched with {action = "GetProductsBasedOnCategoryId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsBasedOnCategoryId(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.ProductsController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 17:14:18.306 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Product] AS [p]
+WHERE [p].[CategoryID] = @__id_0
+2024-09-03 17:14:18.308 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Product, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 17:14:18.310 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024)) in 16.5802ms
+2024-09-03 17:14:18.311 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024))'
+2024-09-03 17:14:18.311 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 17:14:18.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 200 null application/json; charset=utf-8 78.82ms
+2024-09-03 17:14:18.314 +03:00 [INF] CORS policy execution successful.
+2024-09-03 17:14:18.317 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024))'
+2024-09-03 17:14:18.317 +03:00 [INF] Route matched with {action = "GetProductsBasedOnCategoryId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsBasedOnCategoryId(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.ProductsController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 17:14:18.321 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Product] AS [p]
+WHERE [p].[CategoryID] = @__id_0
+2024-09-03 17:14:18.322 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Product, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 17:14:18.324 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024)) in 5.2162ms
+2024-09-03 17:14:18.324 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024))'
+2024-09-03 17:14:18.325 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 200 null application/json; charset=utf-8 14.2992ms
+2024-09-03 17:14:29.723 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Categories - null null
+2024-09-03 17:14:29.729 +03:00 [INF] CORS policy execution successful.
+2024-09-03 17:14:29.729 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 17:14:29.730 +03:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 17:14:29.733 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-09-03 17:14:29.736 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Category, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 17:14:29.738 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024)) in 6.8569ms
+2024-09-03 17:14:29.738 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.CategoriesController.GetAllCategories (asp.netwebApiTask(8-24-2024))'
+2024-09-03 17:14:29.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Categories - 200 null application/json; charset=utf-8 15.7952ms
+2024-09-03 17:14:30.850 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 17:14:30.852 +03:00 [INF] CORS policy execution successful.
+2024-09-03 17:14:30.852 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 204 null null 2.2711ms
+2024-09-03 17:14:30.854 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - null null
+2024-09-03 17:14:30.855 +03:00 [INF] CORS policy execution successful.
+2024-09-03 17:14:30.856 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024))'
+2024-09-03 17:14:30.857 +03:00 [INF] Route matched with {action = "GetProductsBasedOnCategoryId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsBasedOnCategoryId(Int32) on controller asp.netwebApiTask_8_24_2024_.Controllers.ProductsController (asp.netwebApiTask(8-24-2024)).
+2024-09-03 17:14:30.861 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Product] AS [p]
+WHERE [p].[CategoryID] = @__id_0
+2024-09-03 17:14:30.862 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[asp.netwebApiTask_8_24_2024_.Models.Product, asp.netwebApiTask(8-24-2024), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 17:14:30.863 +03:00 [INF] Executed action asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024)) in 5.0023ms
+2024-09-03 17:14:30.864 +03:00 [INF] Executed endpoint 'asp.netwebApiTask_8_24_2024_.Controllers.ProductsController.GetProductsBasedOnCategoryId (asp.netwebApiTask(8-24-2024))'
+2024-09-03 17:14:30.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/Products/GetProductsBasedOnCategoryId/1 - 200 null application/json; charset=utf-8 10.7087ms

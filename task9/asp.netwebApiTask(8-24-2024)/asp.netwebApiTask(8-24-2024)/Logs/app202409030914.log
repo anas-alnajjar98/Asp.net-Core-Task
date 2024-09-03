@@ -1,0 +1,4 @@
+2024-09-03 09:14:29.568 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7216/api/_Users/addnewuser - multipart/form-data; boundary=----WebKitFormBoundary08rOWxHoJkAUwyIH 44
+2024-09-03 09:14:29.582 +03:00 [INF] CORS policy execution successful.
+2024-09-03 09:14:29.587 +03:00 [INF] Executing endpoint 'asp.netwebApiTask_8_24_2024_.Controllers._UsersController.addUser (asp.netwebApiTask(8-24-2024))'
+2024-09-03 09:14:29.609 +03:00 [INF] Route matched with {action = "addUser", controller = "_Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(asp.netwebApiTask_8_24_2024_.DTOs.UserReqestDTO) on controller asp.netwebApiTask_8_24_2024_.Controllers._UsersController (asp.netwebApiTask(8-24-2024)).
